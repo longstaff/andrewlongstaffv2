@@ -252,6 +252,12 @@ const messageFactory = (commands: Commands): MessageFactory => {
 
   const triggerLink = (call: string, link: string): Message => {
     commands.openLink(link);
+
+    ReactGA.event({
+      category: "open",
+      action: link,
+    });
+
     return simpleMessage(call, [
       `Opening url: ***${link}***`,
       "If window did not open check popup blockers and try again.",
@@ -315,9 +321,10 @@ const messageFactory = (commands: Commands): MessageFactory => {
     const input = splitArguments(call);
 
     ReactGA.event({
-      category: input.command,
-      action: input.arguments.join(", "),
+      category: "command",
+      action: call,
     });
+
     return (commandMap[input.command] || commandMap.notFound)(
       call,
       input.arguments,
