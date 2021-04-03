@@ -1,0 +1,272 @@
+[
+  {
+    "command": [
+      "photography",
+      "photographs",
+      "photograph",
+      "photos",
+      "photo",
+      "pictures"
+    ],
+    "output": [
+      "**Scape**:",
+      " ",
+      "-- Scape 1 --",
+      "[scape/a.jpg]",
+      " ",
+      "-- Scape 2 --",
+      "[scape/b.jpg]",
+      " ",
+      "-- Scape 3 --",
+      "[scape/c.jpg]",
+      " ",
+      "-- Scape 4 --",
+      "[scape/d.jpg]",
+      " ",
+      "**External**",
+      "***500px::https://500px.com/longstaff***",
+      "***instagram::https://www.instagram.com/excerptsofthecrowd/***"
+    ],
+    "help": "Some of my photography projects",
+    "params": [
+      {
+        "command": ["scape"],
+        "output": [
+          "Scape was a series of 12 images made with a custom made camera. Images were shot on a full roll of medium format film and then contact printed",
+          "Final presentation size is approx. 1m x 60mm",
+          " ",
+          "For more information ***email::mailto:web@andrewlongstaff.com*** me"
+        ]
+      },
+      {
+        "command": ["external"],
+        "output": [
+          "Some of my pictures can be found on external sites, find things here:",
+          "***500px::https://500px.com/longstaff***",
+          "***instagram::https://www.instagram.com/excerptsofthecrowd/***"
+        ]
+      }
+    ]
+  },
+  {
+    "command": ["about", "bio"],
+    "output": [
+      "I was born and raised in a small village outside of Oxford, England. There I learnt the values of craftsmanship, dedication to learning new things, and what you can accomplish when you live miles from anything interesting going on.",
+      "I had a passion for the creative, and loved art, science, math and design. My father is a carpenter by trade but was at the forefront of the CAD system development, so the first program that I wrote was to control a laser cutter. Since then I have had a great passion to try and find things to take apart, tinker with and perfect.",
+      "I went to university to study **Photography**, the ultimate blend of science, art and technology, and got hooked on creating my own cameras, culminating in my final year project of deconstructed images.",
+      "As part of this course I started dipping into web technologies as a hobby, making self promotional materials and adverts for shows that we were putting on at the time.",
+      "I met my wife when studying, and moved to Finland after we graduated.",
+      "While in Finland I self taught myself Java, and from there Flash Actionscript. With the breaking of HTML5 I learned javascript and PHP, css and HTML (correctly this time) as well as various database languages as needed. A few years later and I am still **working** hands on, but now happily leading a team of developers, running modern web tech like react, typescript, and GraphQL as well as learning IOS and Android developement and C for hardware applications (and Finnish). Guess which is the hardest..."
+    ],
+    "help": "About me, myself and I",
+    "params": [
+      {
+        "command": ["photography"],
+        "output": [
+          "My photography work is centered in two main branches, experimental and structural.",
+          "After my work in uni I have a great interest in the mechanics of photography, making cameras and playing with the creation of images, more can be seen in the 'photography' section.",
+          "My general shooting is done on square formats, either in ***instagram*** or 6x6 medium format which can be seen in ***500px***. I shoot for details, textures, compositions and juxtapositions."
+        ]
+      },
+      {
+        "command": ["working"],
+        "output": [
+          "My work is generally under NDA, but that stuff that I can share is generally found in ***github::https://github.com/longstaff***, including the ***source::https://github.com/longstaff/andrewlongstaff_v2*** of this page",
+          "My profile can be found on ***linkedin::https://www.linkedin.com/in/alongstaff/***"
+        ]
+      }
+    ]
+  },
+  {
+    "command": ["contact", "email"],
+    "output": [
+      "For work stuff you can find me on ***linkedin::https://www.linkedin.com/in/alongstaff/***, for other things drop me a line by ***email::mailto:web@andrewlongstaff.com*** at web@andrewlongstaff.com"
+    ],
+    "help": "Get in touch"
+  },
+
+  {
+    "command": ["cd"],
+    "output": ["No-one uses cd's any more."]
+  },
+  {
+    "command": ["sudo", "su"],
+    "output": ["I am root!"]
+  },
+  {
+    "command": ["whoami"],
+    "output": ["now is not the time for an existencial crisis."]
+  },
+  {
+    "command": ["whatis"],
+    "output": ["whatever you want it to be"],
+    "params": [
+      {
+        "command": ["love"],
+        "output": ["baby dont hurt me, dont hurt me, no more."]
+      }
+    ]
+  },
+  {
+    "command": ["rm", "rmdir"],
+    "output": ["Can't touch this."]
+  },
+  {
+    "command": ["cat"],
+    "output": ["Meow?"]
+  },
+  {
+    "command": ["netcat"],
+    "output": ["|\\/|30\\/\\/?"]
+  },
+  {
+    "command": ["ping"],
+    "output": ["pong!"]
+  },
+  {
+    "command": ["traceroute"],
+    "output": ["I cant find my pencil..."]
+  },
+  {
+    "command": ["mv"],
+    "output": ["I like to mv it mv it!"]
+  },
+  {
+    "command": ["cp"],
+    "output": ["Damnit Jim, I'm a server not a photocopier!"]
+  },
+  {
+    "command": ["kill"],
+    "output": ["I'm a pacifist"]
+  },
+  {
+    "command": ["find"],
+    "output": [
+      "Follow the sun for three days then follow the river upstream, you cant miss it."
+    ]
+  },
+  {
+    "command": ["nohup"],
+    "output": ["No, you hang up."]
+  },
+  {
+    "command": ["mount"],
+    "output": ["Shouldn't you at least buy me dinner first?"]
+  },
+  {
+    "command": ["bash"],
+    "output": ["Ow, stop that!"]
+  },
+  {
+    "command": ["fsck"],
+    "output": ["Fsck you too!"]
+  },
+  {
+    "command": ["tee"],
+    "output": ["Black, no sugar please"]
+  },
+  {
+    "command": ["passwd, pwd"],
+    "output": ["Knock three times, wait a second then knock twice more"]
+  },
+  {
+    "command": ["tty"],
+    "output": ["I love ttys too"]
+  },
+  {
+    "command": ["init"],
+    "output": ["Innit bruv"]
+  },
+  {
+    "command": ["echo"],
+    "output": ["ECHO, Echo, echo..."]
+  },
+  {
+    "command": ["tail"],
+    "output": ["Follow that car!"]
+  },
+  {
+    "command": ["env"],
+    "output": ["Save the env, use the recycle bin!"]
+  },
+  {
+    "command": ["git"],
+    "output": ["Who are you calling a git?"]
+  },
+  {
+    "command": ["mkdir"],
+    "output": ["Why would you want to do that?"]
+  },
+  {
+    "command": ["vi"],
+    "output": ["vi vould you vant to do zat?"]
+  },
+  {
+    "command": ["vim"],
+    "output": ["I did that once, it only lead to pain"]
+  },
+  {
+    "command": ["pico"],
+    "output": ["I did that once, it only lead to pain"]
+  },
+  {
+    "command": ["dd"],
+    "output": ["I don't think so"]
+  },
+  {
+    "command": ["df"],
+    "output": ["I don't think so"]
+  },
+  {
+    "command": ["cron"],
+    "output": ["Unsure, try again later"]
+  },
+  {
+    "command": ["nslookup"],
+    "output": ["Is it a bird? is it a plane?"]
+  },
+  {
+    "command": ["ls"],
+    "output": ["Why would you want to do that?"]
+  },
+  {
+    "command": ["chmod"],
+    "output": ["Who do you think you are?"]
+  },
+  {
+    "command": ["chroot"],
+    "output": ["Who do you think you are?"]
+  },
+  {
+    "command": ["grep"],
+    "output": ["I cant do it captain, I dont have the power!"]
+  },
+  {
+    "command": ["gzip"],
+    "output": ["zzzzzzzzzzzzzzzzzzzzzzzzzzip!"]
+  },
+  {
+    "command": ["gzip"],
+    "output": ["...zzzzzzzzzzzzzzzzzzzzzzzzzzip!"]
+  },
+  {
+    "command": ["wget"],
+    "output": ["wno"]
+  },
+  {
+    "command": ["netstat"],
+    "output": ["yup, it's still there"]
+  },
+  {
+    "command": ["chown"],
+    "output": ["who do you think you are?"]
+  },
+  {
+    "command": ["ifconfig"],
+    "output": ["thenconfig"]
+  },
+  {
+    "command": ["fdisk"],
+    "output": ["fdat, fitall"]
+  }
+]
